@@ -1,0 +1,15 @@
+{
+    "jpg": "IMAGES",
+    "png": "IMAGES",
+    "jpeg": "IMAGES",
+
+    "pdf": "DOCUMENTS",
+    "docx": "DOCUMENTS",
+    "txt": "DOCUMENTS",
+
+    "mp4": "VIDEOS",
+    "mov": "VIDEOS",
+
+    "zip": "ARCHIVES",
+    "rar": "ARCHIVES"
+}
