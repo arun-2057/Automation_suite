@@ -1,9 +1,1 @@
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-.env
-.venv
-env/
-venv/
+Nothing should be ignored in this case, as the changes only include source/config files (LICENSE, TROUBLESHOOTING.md, README.md, requirements.txt, utils/logger.py) with no build artifacts, dependencies, or temporary files present in the change list.
