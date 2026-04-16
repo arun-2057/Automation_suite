@@ -52,15 +52,16 @@ cd automation_suite
 pip install -r requirements.txt
 ```
 ### Required Packages:
-- PyPDF2 - PDF text extraction
+- **PyPDF2** - PDF text extraction
+- **pandas** - Data analysis and manipulation
+- **requests** - Web scraping HTTP requests
+- **beautifulsoup4** - HTML parsing
 
-- pandas - Data analysis and manipulation
-
-- requests - Web scraping HTTP requests
-
-- beautifulsoup4 - HTML parsing
-
-- python-magic - File type detection
+### Optional Dependencies:
+- **python-magic** - Advanced file type detection (requires `libmagic` system package)
+  - Linux: `sudo apt-get install libmagic1`
+  - macOS: `brew install libmagic`
+  - Windows: Requires additional setup
 
 ### Step 3: Verify Installation
 ```bash
@@ -70,10 +71,10 @@ python main.py --help
 ## Quick start
 ### 1. Run the Automation Suite
 ```bash
-pyhton main.py
+python main.py
 ```
 
-### 2.Choose a Tool
+### 2. Choose a Tool
 ```text
  AUTOMATION SUITE
 ====================================
@@ -83,11 +84,14 @@ pyhton main.py
 2. Web Scraper  
 3. Document Extractor 
 4. System Info 
-5. Configuration 
-0. Exit
+5. Exit
 ```
+
+### 3. Follow On-Screen Prompts
+Each tool will guide you through its specific options and configurations.
+
 ### Logs
-Check logs/automation_suite.log for detailed error information and debugging.
+Check `logs/automation_suite.log` for detailed error information and debugging.
 
 ## Contributing
 We welcome contributions! Here's how:
@@ -117,17 +121,14 @@ pip install -r requirements.txt
 pip install -r dev-requirements.txt  # If available
 ```
 ### License
-This project is licensed under the MIT License
+This project is licensed under the MIT License - see LICENSE file for details.
 
 ### Roadmap
-- GUI interface
-
-- Cloud storage integration
-
-- Advanced web scraping (JavaScript support)
-
-- Image OCR capabilities
-
-- API endpoints
-
-- Docker containerization
+- [ ] GUI interface with Tkinter or PyQt
+- [ ] Cloud storage integration (Google Drive, Dropbox)
+- [ ] Advanced web scraping with JavaScript support (Selenium/Playwright)
+- [ ] Image OCR capabilities (Tesseract)
+- [ ] REST API endpoints
+- [ ] Docker containerization
+- [ ] Unit tests and CI/CD pipeline
+- [ ] Configuration UI
