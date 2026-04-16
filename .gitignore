@@ -1,9 +1,58 @@
+```
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Python specific
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
-.env
-.venv
 env/
 venv/
+.venv/
+.venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg
+*.egg-info/
+.direnv/
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj.user
+*.sw?
+
+# OS generated
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db*
+```

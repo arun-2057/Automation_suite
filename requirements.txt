@@ -1,0 +1,8 @@
+# Core dependencies
+PyPDF2>=3.0.0
+pandas>=2.0.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Optional dependencies
+python-magic>=0.4.27  # For advanced file type detection

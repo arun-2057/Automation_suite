@@ -1,0 +1,14 @@
+This is a sample text file for testing the document extractor functionality.
+
+The automation suite includes multiple tools for file organization, web scraping, and document processing.
+
+This sample demonstrates how the document extractor can analyze text content, count words, sentences, and paragraphs.
+
+Key features of the document extractor:
+- Extract text from PDF files
+- Extract text from plain text files
+- Analyze word frequency
+- Count statistics like words, sentences, and paragraphs
+- Save extracted text to output files
+
+Testing the document extractor helps verify that all components are working correctly.
